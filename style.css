@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    justify-content: center;
+}
+
+.head {
+    font-size: 30px;
+}
+
+input {
+    width: 40vw;
+    height: 22px;
+}
+
+.searchBtn {
+    height: 27px;
+    width: 50px;
+    padding: 0;
+}
+
+.tableInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 20px;
+}
+
+td,
+th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.isDay {
+    background-image: url(./images/day.jpg);
+    background-position: center;
+}
+
+.isNight {
+    color: #ddd;
+    background-image: url(./images/night.jpg);
+    background-position: center;
+}
